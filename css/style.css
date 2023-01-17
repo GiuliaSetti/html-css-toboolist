@@ -28,13 +28,19 @@ header > h1{
 
 main{
     margin: 100px 300px;
+    padding: 20px 40px;
+
     background-color: white;
 }
 
 /* bottoni */
 
-.buttonarea{
+/* .buttonarea{
     padding: 20px;
+} */
+
+hr{
+    margin-top: 10px;
 }
 
 button{
@@ -51,7 +57,33 @@ button{
 button:hover{
     background-color: #47adf1;
     color: white;
+
     border: transparent;
+    cursor: pointer;
 }
+
+/* parte principale */
+
+.mainpart{
+    margin-top: 40px;
+}
+
+ul{
+    padding-left: 0;
+    padding-top: 10px;
+
+    list-style-type: none;
+}
+
+.checkmark{
+    margin-right: 10px;
+    padding-left: 2px;
+    
+    color: green;
+    border: 1px solid green; 
+    border-radius: 50%;
+}
+
+
 
 
