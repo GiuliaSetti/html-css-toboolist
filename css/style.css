@@ -65,12 +65,15 @@ button:hover{
 /* parte principale */
 
 .mainpart{
-    margin-top: 40px;
+    padding-top: 20px;
 }
 
-ul{
-    padding-left: 0;
-    padding-top: 10px;
+h2{
+    margin-top: 20px;
+}
+
+li, ul{
+    padding: 10px 20px 15px 0;
 
     list-style-type: none;
 }
@@ -83,6 +86,29 @@ ul{
     border: 1px solid green; 
     border-radius: 50%;
 }
+
+
+.crossmark{
+    margin-right: 10px;
+    padding-left: 2px;
+    
+    color: red;
+    border: 1px solid red; 
+    border-radius: 50%;
+}
+
+/* elementi a fianco della lista */
+
+.rightlist{
+    background-color: #47adf1;
+   
+    border-radius: 15px;
+    padding: 8px 12px;
+    
+    color: white;
+    font-size: 12px;
+}
+
 
 
 
