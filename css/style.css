@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: #f6f8f9;
 }
 
 /* header */
@@ -27,22 +27,24 @@ header > h1{
 /* main */
 
 main{
-    margin: 100px 300px;
+    margin-top: 100px;
+}
+
+.buttonarea, .mainpart{
+    margin-top: 1px;
+    margin-left: 300px;
+    margin-right: 300px;
     padding: 20px 40px;
 
     background-color: white;
-    border-radius: 10px;
+}
+
+.buttonarea{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 /* bottoni */
-
-/* .buttonarea{
-    padding: 20px;
-} */
-
-hr{
-    margin-top: 10px;
-}
 
 button{
     padding: 5px 10px;
@@ -101,13 +103,37 @@ li, ul{
 /* elementi a fianco della lista */
 
 .rightlist{
-    background-color: #47adf1;
-   
     border-radius: 15px;
     padding: 8px 12px;
     
     color: white;
     font-size: 12px;
+}
+
+/* colori dei vari elementi */
+
+#blue{
+    background-color: #47adf1;;
+}
+
+#purple{
+    background-color: #9c72e4;
+}
+
+#green{
+    background-color: #64c0a9;
+}
+
+#orange{
+    background-color: #f29e33;
+}
+
+#pink{
+    background-color: #d863a1;
+}
+
+#acidgreen{
+    background-color: #b0c926;
 }
 
 
