@@ -24,3 +24,34 @@ header > h1{
     font-size: 40px;
 }
 
+/* main */
+
+main{
+    margin: 100px 300px;
+    background-color: white;
+}
+
+/* bottoni */
+
+.buttonarea{
+    padding: 20px;
+}
+
+button{
+    padding: 5px 10px;
+
+    border: solid gray 1px;
+    border-radius: 5px;
+
+    color: gray;
+
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: #47adf1;
+    color: white;
+    border: transparent;
+}
+
+
