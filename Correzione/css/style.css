@@ -57,23 +57,92 @@ button{
 
 
 button:hover{
-    background-color: rgb(10, 216, 227);
+    background-color: #47adf1;
     color: white;
     border: transparent;
 }
 
 /* lista */
 
-.todolist{
-    margin-top: 5px;
-    background-color: white;
-    padding: 20px;
+
+span{
+    margin: 5px;
+    padding: 4px 6px;
 }
 
 ul{
     list-style-type: none;
 }
 
-span{
-    margin: 3px;
+details, li{
+    margin-top: 15px;
+}
+
+.todolist{
+    margin-top: 5px;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.listitem{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+.check-mark{
+    color: green;
+    border: 1px green solid;
+    border-radius: 50%;
+}
+
+.cross-mark{
+    color: red;
+    border: 1px red solid;
+    border-radius: 50%;
+}
+
+.badge{
+    background-color: blue;
+    color: white;
+
+    padding: 6px 10px;
+    
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+
+#blue{
+    background-color: #47adf1;;
+}
+
+#purple{
+    background-color: #9c72e4;
+}
+
+#green{
+    background-color: #64c0a9;
+}
+
+#orange{
+    background-color: #f29e33;
+}
+
+#pink{
+    background-color: #d863a1;
+}
+
+#acidgreen{
+    background-color: #b0c926;
+}
+
+
+/* footer */
+
+footer{
+    margin: 20px 20px;
+    text-align: center;
+    color: gray;
 }
