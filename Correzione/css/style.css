@@ -7,6 +7,73 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
 }
 
 /* header */
+
+#header{
+    padding: 20px  20px;
+    background-color: white;
+}
+
+#header #logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header h1{
+    display: inline-block;
+    vertical-align: middle;
+
+    font-size: 2em;
+}
+
+
+/* main */
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#btnarea{
+    background-color: white;
+    margin-top: 100px;
+    padding: 20px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button{
+    padding: 5px 8px;
+    border-radius: 8px;
+
+    border:rgb(169, 164, 164) 1px solid;
+    background-color: transparent;
+    color: rgb(169, 164, 164);
+}
+
+
+button:hover{
+    background-color: rgb(10, 216, 227);
+    color: white;
+    border: transparent;
+}
+
+/* lista */
+
+.todolist{
+    margin-top: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+span{
+    margin: 3px;
+}
